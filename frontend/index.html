@@ -29,7 +29,7 @@
     </div>
 
     <script>
-        async function enviarRespostas() {
+        function enviarRespostas() {
             const p1 = document.querySelector('input[name="p1"]:checked');
             const p2 = document.querySelector('input[name="p2"]:checked');
 
@@ -38,20 +38,11 @@
                 return;
             }
 
-            const respostas = {
-                resp1: p1.value,
-                resp2: p2.value
-            };
+            let pontuacao = 0;
+            if (p1.value === "Grifinória") pontuacao++;
+            if (p2.value === "Sirius Black") pontuacao++;
 
-            // Comunicação com o Backend
-            const respostaServidor = await fetch('http://localhost:3000/avaliar', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(respostas)
-            });
-
-            const dados = await respostaServidor.json();
-            document.getElementById('resultado').innerText = `Você acertou ${dados.pontuacao} de 2 questões!`;
+            document.getElementById('resultado').innerText = `Você acertou ${pontuacao} de 2 questões!`;
         }
     </script>
 </body>
