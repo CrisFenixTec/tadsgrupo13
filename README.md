@@ -12,8 +12,8 @@ Quiz do Harry Potter
 * Rodrigo Martins de Almeida
 
 ## Tecnologias Utilizadas
-* **Frontend:** HTML5, CSS3 e JavaScript.
-* **Backend:** Node.js
+* **Frontend:** HTML5, CSS3 e JavaScript (Vanilla).
+* **Backend:** JavaScript (Node.js).
 
 ## Como Executar o Projeto
 1. Faça o download ou clone este repositório.
