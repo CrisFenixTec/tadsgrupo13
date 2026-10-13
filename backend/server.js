@@ -1,4 +1,4 @@
-// Simulação para validação do Quiz de Harry Potter
+// Simulação para validação de perguntas e respostas
 const gabarito = {
     resp1: "Grifinória",
     resp2: "Sirius Black"
@@ -10,5 +10,3 @@ function avaliarRespostas(resp1, resp2) {
     if (resp2 === gabarito.resp2) pontuacao++;
     return pontuacao;
 }
-
-console.log("Servidor inicializado para o Projeto Integrador.");
