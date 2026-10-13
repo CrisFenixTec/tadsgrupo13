@@ -13,6 +13,7 @@ Quiz do Harry Potter
 
 ## Tecnologias Utilizadas
 * **Frontend:** HTML5, CSS3 e JavaScript.
+* **Backend:** Node.js
 
 ## Como Executar o Projeto
 1. Faça o download ou clone este repositório.
