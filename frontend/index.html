@@ -29,31 +29,6 @@
             <p>4. Hermione é a melhor amiga do Harry, qual é o sobrenome dela?</p>
             <input type="radio" name="p4" value="Granger"> Granger<br>
             <input type="radio" name="p4" value="Farble"> Farble<br>
-
-            <p>5. Como é conhecida a casa em que Rony e os outros Weasley vivem?</p>
-            <input type="radio" name="p5" value="A Toca"> A Toca<br>
-            <input type="radio" name="p5" value="A Casa Weasley"> A Casa Weasley<br>
-
-            <p>6. Quantas horcruxes Voldemort criou voluntariamente para dividir a sua alma?</p>
-            <input type="radio" name="p6" value="Sete"> Sete<br>
-            <input type="radio" name="p6" value="Dez"> Dez<br>
-
-            <p>7. Esse personagem apesar de ser um grande bruxo, adora algo simples como o picolé de limão, inventado pelos trouxas. De quem estamos falando?</p>
-            <input type="radio" name="p7" value="Alvo Dumbledore"> Alvo Dumbledore<br>
-            <input type="radio" name="p7" value="Tom Riddle"> Tom Riddle<br>
-
-            <p>8. Quais são os três feitiços imperdoáveis?</p>
-            <input type="radio" name="p8" value="Avada Kedavra, Crucio e Império"> Avada Kedavra, Crucio e Império<br>
-            <input type="radio" name="p8" value="Avada Kedavra, Dominius e Alohomor"> Avada Kedavra, Dominius e Alohomora<br>
-
-            <p>9. Para onde são enviados os bruxos que cometem crimes?</p>
-            <input type="radio" name="p9" value="Vale da Perdição"> Vale da Perdição<br>
-            <input type="radio" name="p9" value="Prisão de Azkaban"> Prisão de Azkaban<br>
-
-            <p>10. Qual é o objeto que Harry usa para perambular por Hogwarts a noite que pode mostrar os passos de outros bruxos do castelo?</p>
-            <input type="radio" name="p10" value="Bussóla dos Afoitos"> Bussóla dos Afoitos<br>
-            <input type="radio" name="p10" value="Mapa do Maroto"> Mapa do Maroto<br>
-
             <br>
             <button type="button" onclick="enviarRespostas()">Enviar Respostas</button>
         </form>
@@ -66,14 +41,8 @@
             const p2 = document.querySelector('input[name="p2"]:checked');
             const p3 = document.querySelector('input[name="p3"]:checked');
             const p4 = document.querySelector('input[name="p4"]:checked');
-            const p5 = document.querySelector('input[name="p5"]:checked');
-            const p6 = document.querySelector('input[name="p6"]:checked');
-            const p7 = document.querySelector('input[name="p7"]:checked');
-            const p8 = document.querySelector('input[name="p8"]:checked');
-            const p9 = document.querySelector('input[name="p9"]:checked');
-            const p10 = document.querySelector('input[name="p10"]:checked');
 
-            if (!p1 || !p2 || !p3 || !p4  || !p5 || !p6 || !p7 || !p8 || !p9 || !p10) {
+            if (!p1 || !p2 || !p3 || !p4) {
                 alert("Responda todas as perguntas!");
                 return;
             }
@@ -83,13 +52,6 @@
             if (p2.value === "Sirius Black") pontuacao++;
             if (p3.value === "Cervo") pontuacao++;
             if (p4.value === "Granger") pontuacao++;
-            if (p5.value === "A Toca") pontuacao++;
-            if (p6.value === "Sete") pontuacao++;
-            if (p7.value === "Alvo Dumbledore") pontuacao++;
-            if (p8.value === "Avada Kedavra, Crucio e Império") pontuacao++;
-            if (p9.value === "Prisão de Azkaban") pontuacao++;
-            if (p10.value === "Mapa do Maroto") pontuacao++;
-
             document.getElementById('resultado').innerText = `Você acertou ${pontuacao} de 10 questões!`;
         }
     </script>
