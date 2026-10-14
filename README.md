@@ -23,3 +23,4 @@ Quiz do Harry Potter
 ## Observações a fazer
 
 As perguntas e respostas desse quiz que elaboramos foi validado por uma fã da saga Harry Potter não remunerada.
+O quiz vai gerar uma premiação
