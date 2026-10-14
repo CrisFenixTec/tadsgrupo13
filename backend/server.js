@@ -3,7 +3,7 @@ const gabarito = {
     resp1: "Grifinória",
     resp2: "Sirius Black",
     resp3: "Cervo",
-    resp4: "Granger",   
+    resp4: "Granger"   
 };
 
 function avaliarRespostas(resp1, resp2) {
