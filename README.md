@@ -24,3 +24,5 @@ Quiz do Harry Potter
 
 As perguntas e respostas desse quiz que elaboramos foi validado por uma fã da saga Harry Potter não remunerada.
 O quiz vai gerar uma premiação
+
+Nova versão disponível em 27/10/2026. Cristiane Ferreira
