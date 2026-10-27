@@ -23,4 +23,6 @@ Quiz do Harry Potter
 ## Observações a fazer
 
 As perguntas e respostas desse quiz que elaboramos foi validado por uma fã da saga Harry Potter não remunerada.
-O quiz vai gerar uma premiação
+O quiz vai gerar uma premiação para os três primeiros colocados no ranking Cinem2Fã, que sera cortesia dos nossos patrocinadores: Cinema Show e Loja do Fã.
+
+
