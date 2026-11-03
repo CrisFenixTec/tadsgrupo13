@@ -19,8 +19,3 @@ Quiz do Harry Potter
 1. Faça o download ou clone este repositório.
 2. Abra a pasta do projeto.
 3. Dê um duplo clique no arquivo **`index.html`** para abri-lo em qualquer navegador de internet.
-
-## Observações a fazer
-
-As perguntas e respostas desse quiz que elaboramos foi validado por uma fã da saga Harry Potter não remunerada.
-O quiz vai gerar uma premiação
