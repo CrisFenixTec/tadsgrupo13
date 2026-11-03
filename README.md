@@ -1,6 +1,6 @@
 # Projeto Integrador - 02° Etapa
 
-Um quiz interativo para testar o conhecimento dos fãs sobre o mundo Harry Potter, feitiços e criaturas mágicas !
+Um quiz interativo para testar seus conhecimentos sobre as séries mais famosas da TV e do streaming !
 
 ## Integrantes do grupo
 
