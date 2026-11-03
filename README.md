@@ -1,6 +1,6 @@
 # Projeto Integrador - 02° Etapa
 
-Um jogo de quiz interativo e dinâmico desenvolvido para testar conhecimentos e proporcionar uma experiência simples e divertida aos usuários.
+Um quiz interativo para testar o conhecimento dos fãs sobre o mundo bruxo, de feitiços a criaturas mágicas !
 
 ## Integrantes do grupo
 
