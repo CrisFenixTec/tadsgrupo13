@@ -1,6 +1,6 @@
 # Projeto Integrador - 02° Etapa
 
-Quiz do Harry Potter
+Um jogo de quiz interativo e dinâmico desenvolvido para testar conhecimentos e proporcionar uma experiência simples e divertida aos usuários.
 
 ## Integrantes do grupo
 
