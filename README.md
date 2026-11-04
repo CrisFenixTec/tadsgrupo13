@@ -1,9 +1,10 @@
 ## Integrantes do grupo
 
-* Cristiane Ferreira
-* Danielly Gomes de Souza
+* Cristiane Ferreira (xNumber01)
+* Danielly Gomes de Souza (
+daniellygdesouza-cyber)
 * Helvia Monteiro Olmeda
-* Marinara de Jesus Rosa
+* Marinara de Jesus Rosa (marinararosajr)
 * Polyanna Michele do Nascimento
 * Rodrigo Martins de Almeida
 
