@@ -2,7 +2,7 @@
 
 Quiz do Harry Potter
 
-## Integrantes do grupo
+## Integrantes do grupo:
 
 * Cristiane Ferreira
 * Danielly Gomes de Souza
